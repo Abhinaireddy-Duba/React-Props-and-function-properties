@@ -18,12 +18,16 @@ function App(){
 
 export default App*/
 
+
+import StateExample from "./StateExample"
+
 import PropsExample from "./PropsExample"
 function App(){
   return(
     <div>
     <h2>This is about props Example</h2>
     <PropsExample Name="Abhi" age="20"/>
+    <StateExample/>
     </div>
 
     )
