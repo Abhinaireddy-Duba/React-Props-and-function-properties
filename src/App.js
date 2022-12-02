@@ -1,3 +1,5 @@
+
+import Events from "./Events";
 /*import ClassComponent2 from "./ClassComponent2"
 
 import ClassComponent from "./ClassComponent"
@@ -19,17 +21,34 @@ function App(){
 export default App*/
 
 
-import StateExample from "./StateExample"
+ {/*import StateExample from "./StateExample"
 
 import PropsExample from "./PropsExample"
+
+import FunPropExample from "./FunPropExample"
+import Events from "./Events"
 function App(){
   return(
     <div>
     <h2>This is about props Example</h2>
-    <PropsExample Name="Abhi" age="20"/>
-    <StateExample/>
+     <PropsExample Name="Abhi" age="20"/> 
+    <FunPropExample framework="Angularjs" year="2002"/>
+    <FunPropExample framework="Reactjs" year="2002"/>
+
+    <FunPropExample framework="Vuejs" year="2002"/>
+    
+
+     <StateExample/> 
+    
     </div>
 
     )
 }
-export default App
+export default App*/}
+
+function App(){
+  return(
+    <Events />
+  )
+}
+ export default App 
