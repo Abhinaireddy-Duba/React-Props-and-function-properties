@@ -1,5 +1,71 @@
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './Component/Home'
+import About from './Component/About'
+import Contact from './Component/Contact'
+import Navbar from './Component/Navbar'
+import NotFound from "./Component/NotFound"
 
-import Events from "./Events";
+function App(){
+  return(
+    <div>
+      <BrowserRouter>
+      <Navbar/>
+          <Routes>
+                <Route path="/" element ={<Home/>}/>
+                <Route path="/about" element ={<About/>}/>
+                <Route path="/contact" element ={<Contact/>}/>
+                <Route path="*" element={<NotFound/>}/>
+          </Routes>
+      
+      </BrowserRouter>
+
+
+    </div>
+
+
+
+  )
+}
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import Events from "./Events";
 /*import ClassComponent2 from "./ClassComponent2"
 
 import ClassComponent from "./ClassComponent"
@@ -21,7 +87,7 @@ function App(){
 export default App*/
 
 
- {/*import StateExample from "./StateExample"
+ /*import StateExample from "./StateExample"
 
 import PropsExample from "./PropsExample"
 
@@ -44,11 +110,13 @@ function App(){
 
     )
 }
-export default App*/}
+export default App*/
 
-function App(){
-  return(
-    <Events />
-  )
-}
- export default App 
+
+// function App(){
+//   return(
+//     <Events />
+//   )
+// }
+//  export default App 
+
