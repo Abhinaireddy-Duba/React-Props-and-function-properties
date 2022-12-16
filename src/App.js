@@ -4,6 +4,8 @@ import About from './Component/About'
 import Contact from './Component/Contact'
 import Navbar from './Component/Navbar'
 import NotFound from "./Component/NotFound"
+import Events from "./Events";
+
 
 function App(){
   return(
@@ -18,6 +20,7 @@ function App(){
           </Routes>
       
       </BrowserRouter>
+      <Events/>
 
 
     </div>
@@ -113,10 +116,11 @@ function App(){
 export default App*/
 
 
+
 // function App(){
 //   return(
 //     <Events />
-//   )
+//   )`
 // }
 //  export default App 
 

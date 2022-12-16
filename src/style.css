@@ -1,0 +1,19 @@
+
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnvGyI_qwfh8f1_YbaFhV44ohMHa4QGoKfA&usqp=CAU);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+button{
+	color: red;
+	background-color: black;
+	border-radius: 20rem;
+	font-size: 1rem;
+
+}
+button:hover{
+	color: white;
+	background-color:darkblue;
+	border-radius: 20rem;
+	font-size: 1rem;
+}
